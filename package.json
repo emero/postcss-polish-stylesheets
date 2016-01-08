@@ -1,0 +1,29 @@
+{
+  "name": "postcss-polish-stylesheets",
+  "version": "1.0",
+  "description": "CSS in polish",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emero/postcss-polish-stylesheets"
+  },
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "polish"
+  ],
+  "author": {
+    "name": "Michał Mrozowski",
+    "email": "michal@mrozowski.eu"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emero/postcss-polish-stylesheets/issues"
+  },
+  "homepage": "http://mrozowski.eu",
+  "dependencies": {
+    "postcss": "^1.0.0"
+  },
+  "devDependencies": {}
+}
