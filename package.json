@@ -1,6 +1,6 @@
 {
   "name": "postcss-polish-stylesheets",
-  "version": "1.0",
+  "version": "1.1.0",
   "description": "CSS in polish",
   "main": "src/index.js",
   "repository": {
@@ -21,9 +21,16 @@
   "bugs": {
     "url": "https://github.com/emero/postcss-polish-stylesheets/issues"
   },
-  "homepage": "http://mrozowski.eu",
+  "homepage": "https://github.com/emero/postcss-polish-stylesheets",
   "dependencies": {
     "postcss": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.2.0"
+  },
+  "scripts": {
+    "test": "gulp"
+  }
 }
