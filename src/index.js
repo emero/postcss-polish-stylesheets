@@ -11,7 +11,7 @@ module.exports = postcss.plugin('postcss-polish-stylesheets', function () {
     possibleValues = [].concat(possibleValues)
 
     for (var i in possibleValues) {
-      re = new RegExp('(\\b)?(' + possibleValues[i] + ')\\b', 'g');
+      re = new RegExp('(?:\\b)?(' + possibleValues[i] + ')(?:\\b)', 'g');
 
       if (re.test(enteredValue)) {
         transformedValue = transformedValue.replace(re, key);
@@ -36,8 +36,8 @@ module.exports = postcss.plugin('postcss-polish-stylesheets', function () {
       }
 
       // Importants
-      if (decl.value.indexOf('!motyla noga') >= 0) {
-        decl.value = decl.value.replace(/\s*!motyla noga\s*/, '');
+      if (decl.value.indexOf('!motyla-noga') >= 0) {
+        decl.value = decl.value.replace(/\s*!motyla-noga\s*/, '');
         decl.important = true;
       }
     });

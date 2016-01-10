@@ -17,7 +17,7 @@ TODO
 
     .polish-flag {
       cień-pudełka: wkład 0 94piksele 0 0 biały;
-      góra: 5pikseli !motyla noga;
+      góra: 5pikseli !motyla-noga;
       lewo: 2piksele;
       pozycja: absolutna;
       ramka: 1piksel jednolity szary;
