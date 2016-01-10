@@ -30,7 +30,7 @@ TODO
 
     .polish-flag {
       box-shadow: inset 0 94px 0 0 white;
-      top: 5px;
+      top: 5px !improtant;
       left: 2px;
       position: absolute;
       border: 1px solid gray;
