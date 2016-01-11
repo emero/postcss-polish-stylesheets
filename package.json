@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/emero/postcss-polish-stylesheets",
   "dependencies": {
-    "postcss": "^1.0.0"
+    "postcss": "^5.0.0"
   },
   "devDependencies": {
     "chai": "^3.4.1",
