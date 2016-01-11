@@ -9,7 +9,19 @@ It's time to Polish your styles!
 
 ## Basic usage
 
-TODO
+    // Load dependencies
+    var fs = require("fs")
+    var postcss = require("postcss")
+    var polishStylesheets = require("postcss-polish-stylesheets")
+
+    // CSS file to Polish
+    var css = fs.readFileSync("styles.css", "utf8")
+
+    // Process
+    var output = postcss()
+      .use(polishStylesheets())
+      .process(css)
+      .css
 
 ## Example
 
