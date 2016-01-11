@@ -1,4 +1,6 @@
-# <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/32px-Flag_of_Poland.svg.png" alt="" height="32px" width="auto"> postcss-polish-stylesheets
+# <img style="border: 1px solid #eee;" src="https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/32px-Flag_of_Poland.svg.png" alt="" height="32px" width="auto"> postcss-polish-stylesheets
+
+[![Build Status](https://travis-ci.org/emero/postcss-polish-stylesheets.svg?branch=master)](https://travis-ci.org/emero/postcss-polish-stylesheets)
 
 It's time to Polish your styles!
 [PostCSS](https://github.com/postcss/postcss) plugin for writing CSS in Polish.
