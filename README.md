@@ -44,7 +44,7 @@ It's time to Polish your styles!
 
     .polish-flag {
       box-shadow: inset 0 94px 0 0 white;
-      top: 5px !improtant;
+      top: 5px !important;
       left: 2px;
       position: absolute;
       border: 1px solid gray;
